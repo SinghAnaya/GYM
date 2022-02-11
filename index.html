@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VIGOUR</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style >
+    body
+    { 
+       font-family: 'Rowdies', cursive;
+       background-image: url(https://images2.alphacoders.com/510/thumb-1920-510978.jpg);
+       background-position: center top;
+      
+        color: white;
+    }
+    #left{
+        font-size: 15px;
+        position: absolute;
+      display: inline-block;
+      top: 0px;
+      left: 34px;
+    }
+    #left img {
+        width: 90px;
+        filter: invert(100%);
+        
+    }
+
+    #left div {
+        line-height: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #mid
+    {
+   width: 80%;
+   margin:20px auto;
+ 
+
+   display: block;
+    }
+    .navbar {
+        
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,.navbar li a.active {
+        text-decoration: underline;
+        color: goldenrod;
+
+    }
+    #right{
+  position: absolute;
+  
+ display: inline-block;
+ right: 40px;
+ top: 25px;
+    }
+    a:link{
+        color: black;
+    }
+    .container{
+        text-align: center;
+      margin: 2% auto;
+
+      border: 10px groove beige;
+      padding: 12px;
+    }
+    .btn:hover {
+        padding: 3px;
+      
+        background-color: rgb(1, 120, 450);
+    }
+    .formtype input {
+      text-align: center;
+      margin: 5px auto;
+      font-size: 13px;
+    }
+    .formtype label{
+        width: 160px;
+        display: inline-block;
+    }
+    
+
+</style>
+<body>
+     <header class="head">
+<div id="left">
+<img src="https://static.vecteezy.com/system/resources/thumbnails/000/595/377/small/04012019-07.jpg" >
+            <div>VIGOUR</div>
+        </div>
+</div>
+<div id="mid">
+<ul class="navbar">
+                <li><a href="#">WORKOUTS</a></li>
+                <li><a href="#">PROGRAMS</a></li>
+                <li><a href="#">COMMUNITY</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">STORE</a></li>
+            </ul>
+    </div>
+<div id="right">
+    <a class="header__item nav-link " href="/contact/us" >
+      <span class="sr-only">contact</span>
+      <img src="https://pic.onlinewebfonts.com/svg/img_162044.png" style="width: 40px; height: 40px; display: inline-block; filter: invert(100%); ">
+        </a>
+
+    <a class="header__item nav-link cart" href="/store/cart" >
+          <span class="sr-only">cart</span>
+      <img src="https://i.pinimg.com/564x/bd/14/9c/bd149c5c05185de274f040d809f93354.jpg" style="width: 50px; height: 40px;  filter: invert(100%); ">
+    </a>
+    </div>
+</header>
+<div class="container">
+        <h1>WE WOULD APPRECIATE MORE DETAILS</h1>
+        <form action="/action_page.php" method="get">
+            <div class="formtype">
+                <label>NAME </label>
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formtype">
+                <label>AGE </label>
+                <input type="Number" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formtype">
+           <label>GENDER</label>
+                <input type="radio" name="gender" value="MALE">MALE
+                <input type="radio" name="gender" value="FEMALE">FEMALE
+                 <input type="radio" name="gender" value="OTHER">OTHER
+            </div>
+
+            <div class="formtype">
+              <label>EMAIL</label>
+                <input type="email" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="formtype">
+                <label>PHONE NO.</label>
+                <input type="" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn" >Submit</button>
+        </form>
+    </div>
+</body>
+<!--<footer>
+    <p style="text-align: center ;  position : asolute; bottom: 0; left:0;">Copyright &copy; to ANANYA SINGH</p>
+</footer>-->
+</html>
